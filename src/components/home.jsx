@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './footer';
+import SmBanner from './smBanner';
 
 const Home = () => {
     //return only instead of render and return since static page for now   
@@ -10,7 +11,6 @@ const Home = () => {
         <h2> Intro to Rhea</h2>
         <h3> Live classes w/ calendar plugin (todo)</h3>
         <h3> Instagram most recent posts plugin (todo)</h3>
-        <h2> Social Media buttons </h2>
         <Footer/>
     </React.Fragment>
     );

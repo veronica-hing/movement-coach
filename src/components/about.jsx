@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './footer';
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
             <h2> Mission statement</h2>
             <h1> Recent Blog posts, Thumbnails to her blog (todo)</h1>
             <h2> Social Media buttons </h2>
-            <h3> Temp Footer</h3>
+            <Footer/>
         </div>
     );
 };

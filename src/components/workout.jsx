@@ -1,7 +1,13 @@
 import React from 'react';
+import Footer from './footer';
 
 const Workout = () => {
-    return <h1>Work Out!</h1>;
+    return (
+        <React.Fragment>
+            <h1>Work Out Videos!</h1>
+            <Footer/>   
+        </React.Fragment>
+    );
 };
 
 export default Workout;

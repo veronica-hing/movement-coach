@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './footer';
 
 const Faq = () => {
     return (
@@ -8,7 +9,7 @@ const Faq = () => {
             <h2> Getting started / Rest and Recovery / Mood and Wellness / Food and Diet</h2>
             <h3> Questions and answers based on above selection</h3>
             <h2> Social Media buttons </h2>
-            <h3> Temp Footer</h3>
+            <Footer/>
         </div>
         );
 };
