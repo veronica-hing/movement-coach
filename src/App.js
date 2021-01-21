@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import{Redirect, Route, Switch} from 'react-router-dom';
 import React, {Component} from 'react';
@@ -15,7 +14,7 @@ class App extends Component {
     return(
       <React.Fragment>
         <NavBar/>
-        <main className = 'container'>
+        <main>
           <Switch>
             <Route path = '/home' component = {Home}/>
             <Route path = '/workout' component = {Workout}/>
